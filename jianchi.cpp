@@ -2,12 +2,12 @@
 int main()
 {
 	int coding = 0;
-	printf("Äã»áÈ¥ÇÃ´úÂëÂğ? (Ñ¡Ôñ1 or 0) :>");
+	printf("ä½ ä¼šå»æ•²ä»£ç å—? (é€‰æ‹©1 or 0) :>");
 	scanf("%d", &coding);
 	if(coding == 1)
-		printf("¼á³ÖÄã»áÓĞºÃoffer\n");
+		printf("åšæŒä½ ä¼šæœ‰å¥½offer\n");
 	else
-		printf("·ÅÆú£¬»Ø¼ÒÖÖºìÊí\n");
+		printf("æ”¾å¼ƒï¼Œå›å®¶ç§çº¢è–¯\n");
 	getchar();
 	getchar();
 }
