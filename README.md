@@ -1,2 +1,2 @@
 # test
-This is a repository for KiteAB's video.
+This is a repository for Skate-x's video.
