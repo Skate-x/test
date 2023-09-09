@@ -1,0 +1,73 @@
+#include<stdio.h>
+
+int main()
+{
+	int day = 0;
+	int n = 1;
+	scanf("%d", &day);
+	switch(day)//也是一种分支语句
+	{
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+			printf("工作日\n");
+			break;//能够跳出语句，到最后一句话
+		case 6:
+		case 7:
+			printf("休息日\n");
+			break;
+		default://常规形式
+			printf("输入错误");
+	}
+	return 0;
+}
+
+//int main()
+//{
+//	int day = 0;
+//	scanf("%d",&day);
+//	switch(day)
+//	{
+//		case 1:
+//	printf("星期一\n");
+//		case 2:
+//	printf("星期二\n");
+//		case 3:
+//	printf("星期三\n");
+//		case 4:
+//	printf("星期四\n");
+//		case 5:
+//	printf("星期五\n");
+//		case 6:
+//	printf("星期六\n");
+//		case 7:
+//	printf("星期天\n");
+//	break;
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 1;
+//	while(i<=100)
+//	{
+//		if(i%2 == 1)
+//			printf("%d\n", i);
+//		i++;
+//	}
+//	getchar();
+//	return 0;
+//}
+
+//int main()
+//{
+//	int n = 4;
+//	if(5 == n)
+//		printf("hehe\n");
+//	else
+//		printf("haha\n");
+//	return 0;
+//}
