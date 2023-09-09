@@ -2,29 +2,59 @@
 
 int main()
 {
-	int day = 0;
-	int n = 1;
-	scanf("%d", &day);
-	switch(day)//也是一种分支语句，其中可以包含if语句
+	int n = 2;
+	int m = 3;
+	switch(n)
 	{
 		case 1:
-			if(n == 1)
-				printf("hehe\n");
 		case 2:
+			m++;
 		case 3:
+			n++;
 		case 4:
-		case 5:
-			printf("工作日\n");
-			break;//能够跳出语句，到最后一句话
-		case 6:
-		case 7:
-			printf("休息日\n");
-			break;
-		default://常规形式
-			printf("输入错误");
+			switch(n)
+			{//switch允许嵌套使用
+			case 1:
+				n++;
+			case 2:
+			case 3:
+				m++;
+				n++;
+				break;
+			default:
+				break;
+			}
+			printf("m = %d, n = %d\n", m, n);
+			return 0;
 	}
-	return 0;
 }
+
+
+//int main()
+//{
+//	int day = 0;
+//	int n = 1;
+//	scanf("%d", &day);
+//	switch(day)//也是一种分支语句
+//	{
+//		case 1:
+//			if(n == 1)
+//				printf("hehe\n");
+//		case 2:
+//		case 3:
+//		case 4:
+//		case 5:
+//			printf("工作日\n");
+//			break;//能够跳出语句，到最后一句话
+//		case 6:
+//		case 7:
+//			printf("休息日\n");
+//			break;
+//		default://常规形式
+//			printf("输入错误");
+//	}
+//	return 0;
+//}
 
 //int main()
 //{
