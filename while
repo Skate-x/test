@@ -1,0 +1,37 @@
+#include<stdio.h>
+
+int main()
+{
+	int ch = 0;
+	while((ch = getchar()) != EOF)
+	{
+		/*if(ch >= 'a' && ch <= 'z')
+			return ch + 32;
+		else if(ch >= 'A' && ch <= 'Z')
+			return ch + 32;*/
+		printf("%c\n", ch);
+		putchar(ch);
+	}
+	return 0;
+}
+
+//int main()
+//{
+//	int ch = getchar();
+//	putchar(ch);
+//	printf("%c\n", ch);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 1;
+//	while(i<=10)
+//	{
+//		if(i == 5)
+//			continue;
+//		printf("%d\n", i);
+//		i++;
+//	}
+//	return 0;
+//}
